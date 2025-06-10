@@ -9,6 +9,7 @@ Given an array arr[], find the second largest element in the array. If the secon
 
 ## Time and Space Complexity:
 Time Complexity: O(2*N)
+
 Space Complexity: O(1)
 
 ## Example:
