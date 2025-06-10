@@ -19,3 +19,6 @@ Space Complexity: O(1)
 **Input**: arr[]=[12,35,1,10,34,1]
 
 **Output**: 34
+
+## Problem Link:
+https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/second-largest3735
