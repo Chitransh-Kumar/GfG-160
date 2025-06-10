@@ -13,4 +13,5 @@ Space Complexity: O(1)
 
 ## Example:
 **Input**: arr[]=[12,35,1,10,34,1]
+
 **Output**: 34
