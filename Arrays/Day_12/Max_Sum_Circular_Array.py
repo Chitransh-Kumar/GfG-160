@@ -13,16 +13,10 @@ def max_sum_circular_array(arr):
     for i in range(n):
         current_max=max(current_max+arr[i],arr[i])
         global_max=max(global_max,current_max)
-    
-    print(current_max)
-    print(global_max)
 
     for i in range(n):
         current_min=min(current_min+arr[i],arr[i])
         global_min=min(global_min,current_min)
-
-    print(current_min)
-    print(global_min)
 
     if global_max<0:
         return global_max
