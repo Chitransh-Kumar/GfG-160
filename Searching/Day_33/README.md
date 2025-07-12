@@ -2,7 +2,7 @@
 Given an array arr which denote position of stall and an integer k which denotes no. of cows, assign cows to stalls such that the minimum distance between two stalls is the maximum possible.
 
 ## Concept: 
-Binary Search in Arrays
+Binary Search on Answers
 
 ## Approach:
 1. First define a function can_be_placed which takes N cows, arr and distance d as input.
