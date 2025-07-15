@@ -1,15 +1,17 @@
 def rotate_by_90_degrees(matrix):
     n=len(matrix)
 
+    # Transpose of the matrix
     for i in range(n):
         for j in range(i+1,n):
             matrix[i][j],matrix[j][i]=matrix[j][i],matrix[i][j]
 
-    for i in range(n):
+    # Row swap for each column
+    for j in range(n):
         top=0
         bottom=n-1
         while top<=bottom:
-            matrix[top][i],matrix[bottom][i]=matrix[bottom][i],matrix[top][i]    
+            matrix[top][j],matrix[bottom][j]=matrix[bottom][j],matrix[top][j]    
             top+=1
             bottom-=1
 
