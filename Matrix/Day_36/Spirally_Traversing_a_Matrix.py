@@ -10,8 +10,8 @@ def spirally_traversing_a_matrix(matrix):
     ans=[]
     while top<=bottom and left<=right:
         
-        for i in range(left,right+1):
-            ans.append(matrix[top][i])
+        for j in range(left,right+1):
+            ans.append(matrix[top][j])
         top+=1
 
         for i in range(top,bottom+1):
@@ -19,8 +19,8 @@ def spirally_traversing_a_matrix(matrix):
         right-=1
 
         if top<=bottom:
-            for i in range(right,left-1,-1):
-                ans.append(matrix[bottom][i])
+            for j in range(right,left-1,-1):
+                ans.append(matrix[bottom][j])
             bottom-=1
 
         if left<=right:
