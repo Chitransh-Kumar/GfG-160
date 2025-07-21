@@ -43,6 +43,16 @@ If you have suggestions, improvements or want to collaborate, feel free to reach
 
 ---
 
+## ⭐ Star This Repo
+
+If you find this project helpful or inspiring, please consider giving it a star:
+
+> ⭐ **[Click here to star the repository](https://github.com/Chitransh-Kumar/GfG-160)**
+
+It helps others discover the project and keeps me motivated to build and share more! 🚀
+
+---
+
 ## 🛠 How to Use
 
 1. Clone the repo:
