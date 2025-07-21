@@ -48,4 +48,4 @@ If you have suggestions, improvements or want to collaborate, feel free to reach
 1. Clone the repo:
    ```bash
    git clone https://github.com/Chitransh-Kumar/GfG-160.git
-   cd fG-160
+   cd GfG-160
