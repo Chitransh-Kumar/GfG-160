@@ -1,11 +1,3 @@
-# 5 1 2 7
-# 3 0 5 2
-# 1 3 1 5
-
-# 0 0 0 0
-# 0 4 5 0
-# 0 3 1 0
-
 def set_matrix_zeros(matrix):
     rows=len(matrix)
     cols=len(matrix[0])
